@@ -1,0 +1,18 @@
+{
+  "name": "faker-atom",
+  "main": "./lib/faker",
+  "version": "0.0.0",
+  "description": "A faker plugin for Atom",
+  "keywords": ["faker", "fake data"],
+  "activationCommands": {
+    "atom-workspace": "faker:create"
+  },
+  "repository": "https://github.com/dustincoates/faker-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "faker": "^3.1.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Create fake",
+        "command": "faker:create"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "faker",
+          "submenu": [
+            {
+              "label": "Create",
+              "command": "faker:create"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
