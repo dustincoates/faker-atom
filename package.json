@@ -1,9 +1,12 @@
 {
   "name": "faker-atom",
   "main": "./lib/faker",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A faker plugin for Atom. Use to add fake data from faker.js to files.",
-  "keywords": ["faker", "fake data"],
+  "keywords": [
+    "faker",
+    "fake data"
+  ],
   "activationCommands": {
     "atom-workspace": "faker:create"
   },
